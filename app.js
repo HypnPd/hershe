@@ -775,11 +775,13 @@
     loadSlots(); applyEditable();
     setSaveState(hasDraft ? 'Draft saved - visible only to you' : 'Local draft - visible only to you');
 
-    if (new URLSearchParams(location.search).has('edit')) setEditing(true);
-    else {
-      let seen = false;
-      try { seen = !!localStorage.getItem('hershe.seen'); localStorage.setItem('hershe.seen', '1'); } catch { /* ignore */ }
-      if (!seen) setTimeout(() => toast('Tip: "Edit profile" opens a personal draft - it saves only in this browser.'), 1800);
+    // The editor UI (the "Edit profile" bar) only appears when the page is
+    // opened with ?edit in the URL - a plain shared link never shows it.
+    const isEditorLink = new URLSearchParams(location.search).has('edit');
+    $('.editbar').hidden = !isEditorLink;
+    if (isEditorLink) {
+      setEditing(true);
+      setTimeout(() => toast('Editor link open - changes save only in this browser, not to the published site.'), 1200);
     }
   })();
 })();

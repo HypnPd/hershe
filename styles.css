@@ -461,6 +461,7 @@ body.is-editing .add-row.edit-only { display: block !important; }
   background: rgba(12, 10, 13, .92); color: var(--cream); border: 1px solid var(--line-dark);
   box-shadow: 0 12px 40px -8px rgba(0, 0, 0, .6); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
 }
+.editbar[hidden] { display: none; }
 .editbar__main { min-height: 44px; padding: 10px 20px; border-radius: 999px; border: 0; font-size: .7rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; background: linear-gradient(135deg, var(--pink), var(--pink-2)); color: var(--white); }
 .editbar__main[aria-pressed="true"] { background: var(--panel-2); color: var(--pink); }
 .editbar__hint { padding-inline: 10px; font-size: .74rem; color: var(--on-dark-muted); white-space: nowrap; }

@@ -60,18 +60,18 @@
   "hero": [
     {
       "id": "96500772-671e-4b91-8cf4-67ed78836d09",
-      "src": "assets/uploads/9e7ed8dac7e3e266.jpg",
-      "thumb": "assets/uploads/bea188f7ff26a34e.jpg"
+      "src": "9e7ed8dac7e3e266.jpg",
+      "thumb": "bea188f7ff26a34e.jpg"
     },
     {
       "id": "d13a8ee0-3297-4cdb-b1a2-31efe4655ef6",
-      "src": "assets/uploads/3efb2925338bd486.jpg",
-      "thumb": "assets/uploads/b9bc2cb7f570b464.jpg"
+      "src": "3efb2925338bd486.jpg",
+      "thumb": "b9bc2cb7f570b464.jpg"
     },
     {
       "id": "553a36b4-bcbd-4f92-87f7-ede5dfe5b5b1",
-      "src": "assets/uploads/8c968d52976eb311.jpg",
-      "thumb": "assets/uploads/7b5a9b6038304851.jpg"
+      "src": "8c968d52976eb311.jpg",
+      "thumb": "7b5a9b6038304851.jpg"
     }
   ],
   "videos": [
@@ -107,183 +107,183 @@
   "photos": [
     {
       "id": "a9353dc2-431e-4b43-8368-a0710a70171c",
-      "src": "assets/uploads/7f1b3e4f52ec9918.jpg",
-      "thumb": "assets/uploads/71de8c463929867c.jpg"
+      "src": "7f1b3e4f52ec9918.jpg",
+      "thumb": "71de8c463929867c.jpg"
     },
     {
       "id": "40f8fee8-77c2-4be1-93b0-214e7ba7d3c0",
-      "src": "assets/uploads/300b99f72e37621f.jpg",
-      "thumb": "assets/uploads/d7d2835a683345f1.jpg"
+      "src": "300b99f72e37621f.jpg",
+      "thumb": "d7d2835a683345f1.jpg"
     },
     {
       "id": "15a7be87-03e1-4d71-9c38-237c30727df2",
-      "src": "assets/uploads/1a2db81ecd052a73.jpg",
-      "thumb": "assets/uploads/aad7b3d4d95e81e6.jpg"
+      "src": "1a2db81ecd052a73.jpg",
+      "thumb": "aad7b3d4d95e81e6.jpg"
     },
     {
       "id": "961dd6e8-6a7e-4666-b40c-4b0a71d62e0f",
-      "src": "assets/uploads/5755dada3577b6af.jpg",
-      "thumb": "assets/uploads/cc08a33647c52940.jpg"
+      "src": "5755dada3577b6af.jpg",
+      "thumb": "cc08a33647c52940.jpg"
     },
     {
       "id": "32f4c946-a1a1-42ef-a152-b278d6d8b2d4",
-      "src": "assets/uploads/24b07484477744b5.jpg",
-      "thumb": "assets/uploads/e67813586845a21b.jpg"
+      "src": "24b07484477744b5.jpg",
+      "thumb": "e67813586845a21b.jpg"
     },
     {
       "id": "c9509745-0316-4aa1-9d8d-028041cff203",
-      "src": "assets/uploads/85f7f0dcd72494b4.jpg",
-      "thumb": "assets/uploads/deb2820b4d50eaa7.jpg"
+      "src": "85f7f0dcd72494b4.jpg",
+      "thumb": "deb2820b4d50eaa7.jpg"
     },
     {
       "id": "8f5b8930-557b-41be-8b9e-4ab13f4b6cbb",
-      "src": "assets/uploads/13511cae15b3452c.jpg",
-      "thumb": "assets/uploads/8af35f579f99daa0.jpg"
+      "src": "13511cae15b3452c.jpg",
+      "thumb": "8af35f579f99daa0.jpg"
     },
     {
       "id": "4a71f2d2-bce9-4d64-b87b-91e4925ef057",
-      "src": "assets/uploads/8cab188f3f9617a6.jpg",
-      "thumb": "assets/uploads/4eb985fdbd9455dd.jpg"
+      "src": "8cab188f3f9617a6.jpg",
+      "thumb": "4eb985fdbd9455dd.jpg"
     },
     {
       "id": "89c34432-dca1-4669-ba8c-826bc122f80f",
-      "src": "assets/uploads/b5077d3bdd6f4753.jpg",
-      "thumb": "assets/uploads/a13b635de60d35fd.jpg"
+      "src": "b5077d3bdd6f4753.jpg",
+      "thumb": "a13b635de60d35fd.jpg"
     },
     {
       "id": "d3010eae-217b-4f0d-9c84-7681c2f64bc4",
-      "src": "assets/uploads/e8d47a70d05f0241.jpg",
-      "thumb": "assets/uploads/3d237cb609e0d478.jpg"
+      "src": "e8d47a70d05f0241.jpg",
+      "thumb": "3d237cb609e0d478.jpg"
     },
     {
       "id": "c686f865-8469-4e32-b42a-b250bdb8d130",
-      "src": "assets/uploads/6781dafbcb4c573c.jpg",
-      "thumb": "assets/uploads/346e331c9bec99ee.jpg"
+      "src": "6781dafbcb4c573c.jpg",
+      "thumb": "346e331c9bec99ee.jpg"
     },
     {
       "id": "8a77f235-b75b-462c-9688-00a8cf0ed5b4",
-      "src": "assets/uploads/8e139a4da30ba1f8.jpg",
-      "thumb": "assets/uploads/b340305c38bd4394.jpg"
+      "src": "8e139a4da30ba1f8.jpg",
+      "thumb": "b340305c38bd4394.jpg"
     },
     {
       "id": "3331a2ba-739d-413f-af5a-ec1215d9f423",
-      "src": "assets/uploads/cb362d483924e796.jpg",
-      "thumb": "assets/uploads/ed597e366f17774f.jpg"
+      "src": "cb362d483924e796.jpg",
+      "thumb": "ed597e366f17774f.jpg"
     },
     {
       "id": "ba25e6c8-b2a1-403c-acb3-f8d8b8618154",
-      "src": "assets/uploads/d20fdd5f0dade4b4.jpg",
-      "thumb": "assets/uploads/b07405ab57d8bbff.jpg"
+      "src": "d20fdd5f0dade4b4.jpg",
+      "thumb": "b07405ab57d8bbff.jpg"
     },
     {
       "id": "6b3b7605-9b46-49e9-abe2-b20e61d3a184",
-      "src": "assets/uploads/4aa0935def65ba58.jpg",
-      "thumb": "assets/uploads/6ab49591253b9e8c.jpg"
+      "src": "4aa0935def65ba58.jpg",
+      "thumb": "6ab49591253b9e8c.jpg"
     },
     {
       "id": "53ec6c4f-2a5f-43a9-9748-ad3e3f140572",
-      "src": "assets/uploads/7938af4a80874b15.jpg",
-      "thumb": "assets/uploads/4e9192013a753bf4.jpg"
+      "src": "7938af4a80874b15.jpg",
+      "thumb": "4e9192013a753bf4.jpg"
     },
     {
       "id": "f1b8cbc9-6718-4961-8981-7d2469f19c8a",
-      "src": "assets/uploads/53d34fed58dd59cb.jpg",
-      "thumb": "assets/uploads/a983ed2bb195fe6f.jpg"
+      "src": "53d34fed58dd59cb.jpg",
+      "thumb": "a983ed2bb195fe6f.jpg"
     },
     {
       "id": "b4227490-20cb-4ad0-9acd-0022c64aa094",
-      "src": "assets/uploads/e6acf532e34a6996.jpg",
-      "thumb": "assets/uploads/ef1aea2105beb305.jpg"
+      "src": "e6acf532e34a6996.jpg",
+      "thumb": "ef1aea2105beb305.jpg"
     },
     {
       "id": "846b4b86-da57-42c4-adf4-307f231b0e8f",
-      "src": "assets/uploads/3164b7551000a8b7.jpg",
-      "thumb": "assets/uploads/498fbab2eb5cb557.jpg"
+      "src": "3164b7551000a8b7.jpg",
+      "thumb": "498fbab2eb5cb557.jpg"
     },
     {
       "id": "e9015250-a6f4-4d4a-a9ae-49d29339f5aa",
-      "src": "assets/uploads/00b91f45d3b60d91.jpg",
-      "thumb": "assets/uploads/38a2860d0d2b1324.jpg"
+      "src": "00b91f45d3b60d91.jpg",
+      "thumb": "38a2860d0d2b1324.jpg"
     },
     {
       "id": "f20e6b02-370b-4d47-8305-d25069a4cb33",
-      "src": "assets/uploads/09f3239aa912495c.jpg",
-      "thumb": "assets/uploads/fc1dd7448d3678f7.jpg"
+      "src": "09f3239aa912495c.jpg",
+      "thumb": "fc1dd7448d3678f7.jpg"
     },
     {
       "id": "f017480d-64a3-4d36-a0ba-3889a903bfb5",
-      "src": "assets/uploads/751b24dc4bd0c1d2.jpg",
-      "thumb": "assets/uploads/3e3d37553d4c4559.jpg"
+      "src": "751b24dc4bd0c1d2.jpg",
+      "thumb": "3e3d37553d4c4559.jpg"
     },
     {
       "id": "5c7e6fa7-9b33-464f-9ffb-0d5a12e37435",
-      "src": "assets/uploads/3dc5c9dd8a1babac.jpg",
-      "thumb": "assets/uploads/e17c8c7f88a66c2e.jpg"
+      "src": "3dc5c9dd8a1babac.jpg",
+      "thumb": "e17c8c7f88a66c2e.jpg"
     },
     {
       "id": "1fbab12e-3246-454e-9eab-9092e58db295",
-      "src": "assets/uploads/35d90b1111f4f29a.jpg",
-      "thumb": "assets/uploads/840de39304ec31f0.jpg"
+      "src": "35d90b1111f4f29a.jpg",
+      "thumb": "840de39304ec31f0.jpg"
     },
     {
       "id": "65830fe1-144e-409e-bf0b-16ec4bba6ddc",
-      "src": "assets/uploads/ecd1a92c95d79180.jpg",
-      "thumb": "assets/uploads/2f487c50bfb116a9.jpg"
+      "src": "ecd1a92c95d79180.jpg",
+      "thumb": "2f487c50bfb116a9.jpg"
     },
     {
       "id": "808bc986-234f-4684-994d-704f60a9e3dc",
-      "src": "assets/uploads/b95f69e314b6f8c3.jpg",
-      "thumb": "assets/uploads/3821871c433b13ab.jpg"
+      "src": "b95f69e314b6f8c3.jpg",
+      "thumb": "3821871c433b13ab.jpg"
     },
     {
       "id": "2e6858c7-86fe-499a-81cd-c970ce9f4b4c",
-      "src": "assets/uploads/df1d4f945207d75c.jpg",
-      "thumb": "assets/uploads/c2595056aba313bf.jpg"
+      "src": "df1d4f945207d75c.jpg",
+      "thumb": "c2595056aba313bf.jpg"
     },
     {
       "id": "b0c07532-8372-4f7e-85c2-939c7acfc564",
-      "src": "assets/uploads/f3e90d80742d88ad.jpg",
-      "thumb": "assets/uploads/4e527561d880707a.jpg"
+      "src": "f3e90d80742d88ad.jpg",
+      "thumb": "4e527561d880707a.jpg"
     },
     {
       "id": "b1dab495-6b59-4615-aa85-6f0ca2ff9acb",
-      "src": "assets/uploads/af37a67ff9305c75.jpg",
-      "thumb": "assets/uploads/5c9bc71ab5f4c36f.jpg"
+      "src": "af37a67ff9305c75.jpg",
+      "thumb": "5c9bc71ab5f4c36f.jpg"
     },
     {
       "id": "5c9dce72-095b-4e43-93d4-5734c40fd7f2",
-      "src": "assets/uploads/a78491ce7f23b228.jpg",
-      "thumb": "assets/uploads/c95d43fcb3861757.jpg"
+      "src": "a78491ce7f23b228.jpg",
+      "thumb": "c95d43fcb3861757.jpg"
     },
     {
       "id": "93a3cf0b-fd33-461d-a027-f2cc66c68b79",
-      "src": "assets/uploads/508e2af9645bec0e.jpg",
-      "thumb": "assets/uploads/62050610e83e91d0.jpg"
+      "src": "508e2af9645bec0e.jpg",
+      "thumb": "62050610e83e91d0.jpg"
     },
     {
       "id": "50e2563e-10f8-46c9-bc1e-d0a55c606456",
-      "src": "assets/uploads/52908ea2f4602f00.jpg",
-      "thumb": "assets/uploads/90950816699da384.jpg"
+      "src": "52908ea2f4602f00.jpg",
+      "thumb": "90950816699da384.jpg"
     },
     {
       "id": "d1c25aa1-05a4-49df-bd3a-f91da28e6959",
-      "src": "assets/uploads/cf357284af970ce8.jpg",
-      "thumb": "assets/uploads/4cc397387e2e36c2.jpg"
+      "src": "cf357284af970ce8.jpg",
+      "thumb": "4cc397387e2e36c2.jpg"
     },
     {
       "id": "c53177cf-fb38-431a-8a50-3ccfb834ef39",
-      "src": "assets/uploads/b446a108e3ca5e75.jpg",
-      "thumb": "assets/uploads/e61b4a06c3988422.jpg"
+      "src": "b446a108e3ca5e75.jpg",
+      "thumb": "e61b4a06c3988422.jpg"
     },
     {
       "id": "4c7cff08-93a0-41b4-98e3-e1477d223e2b",
-      "src": "assets/uploads/839445bcc5544cc6.jpg",
-      "thumb": "assets/uploads/f0c5676c6a06d119.jpg"
+      "src": "839445bcc5544cc6.jpg",
+      "thumb": "f0c5676c6a06d119.jpg"
     }
   ],
   "slots": {
-    "about": "assets/uploads/4e768cb87bb70361.jpg",
-    "featured": "assets/uploads/edde2db12da72b51.jpg"
+    "about": "4e768cb87bb70361.jpg",
+    "featured": "edde2db12da72b51.jpg"
   },
   "booking": {
     "email": "",

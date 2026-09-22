@@ -86,7 +86,7 @@
 
   /* A ref is either a published static path ("assets/uploads/xxx.jpg") or a
    * locally-added draft blob ("local:<idb-id>"). Both render the same way. */
-  const isStaticAsset = (p) => typeof p === 'string' && /^assets\/[\w./-]+$/.test(p) && !p.includes('..');
+  const isStaticAsset = (p) => typeof p === 'string' && /^[\w.-]+\.(?:jpe?g|png|webp|gif|mp4|mov|m4v|webm)$/i.test(p) && p !== '.' && p !== '..';
   const isLocalRef = (p) => typeof p === 'string' && /^local:[\w-]+$/.test(p);
   const validRef = (p) => isStaticAsset(p) || isLocalRef(p);
 

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hershe</title>
+  <meta name="description" content="Hershe - DJ & producer. House, electro house, R&B and indie. Sets, photos, videos and booking.">
+  <meta name="theme-color" content="#0c0a0d">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M3 12h17m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.4 7-12a7 7 0 1 0-14 0c0 5.6 7 12 7 12Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-disc" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="2.6" fill="currentColor"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#top" data-mirror="name" aria-label="Back to top">HERSHE</a>
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#gigs">Gigs</a>
+    <a href="#sets">Sets</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#connect">Connect</a>
+    <a href="#booking">Booking</a>
+  </nav>
+  <a class="header-cta" href="#booking">Book Now</a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__slides" id="heroSlides" aria-hidden="true"></div>
+    <div class="hero__scrim"></div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-edit="heroEyebrow">House - Electro House - R&amp;B</p>
+      <h1 class="hero__title"><span data-edit="name">HERSHE</span></h1>
+      <p class="hero__tagline" data-edit="heroTagline">A DJ set from Hershe is a story.</p>
+      <p class="hero__cta">
+        <a class="btn btn--solid" href="#booking">Book Hershe <svg class="ico"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn--ghost" href="#sets">Listen to sets</a>
+      </p>
+    </div>
+
+    <div class="hero__controls">
+      <button class="hero__arrow" id="heroPrev" type="button" aria-label="Previous photo"><svg class="ico"><use href="#i-prev"/></svg></button>
+      <div class="hero__dots" id="heroDots" role="tablist" aria-label="Hero photos"></div>
+      <button class="hero__arrow" id="heroNext" type="button" aria-label="Next photo"><svg class="ico"><use href="#i-next"/></svg></button>
+    </div>
+
+    <div class="hero__editbox edit-only">
+      <label class="btn btn--ghost btn--sm">Add hero photo<input type="file" accept="image/*" id="heroAddInput" hidden></label>
+      <button class="btn btn--ghost btn--sm" id="heroRemoveBtn" type="button">Remove this photo</button>
+    </div>
+  </section>
+
+  <!-- GENRES STRIP -->
+  <section class="genres" aria-label="Genres she plays">
+    <ul class="genres__list" id="genres"></ul>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="wrap about__grid">
+      <figure class="slot about__photo reveal" data-slot="about">
+        <div class="slot__frame">
+          <div class="slot__ph"><span>Portrait</span></div>
+          <img alt="Portrait of Hershe" loading="lazy">
+        </div>
+        <label class="slot__replace edit-only"><span class="t-add">Add photo</span><span class="t-replace">Replace photo</span><input type="file" accept="image/*" hidden></label>
+      </figure>
+
+      <div class="about__text reveal">
+        <p class="label" data-edit="aboutEyebrow">About</p>
+        <h2 class="display" data-edit="aboutTitle">She reads the room, then she runs it.</h2>
+        <p data-edit="aboutBody1">Hershe is a DJ and producer based in Isabela, Philippines.</p>
+        <p data-edit="aboutBody2">In just over a year behind the decks, she's played rooms of every size.</p>
+        <p data-edit="aboutBody3">Music has been her language since childhood.</p>
+        <div class="signature">
+          <p class="signature__name" data-edit="aboutSignature">Hershe</p>
+          <p class="signature__role" data-edit="aboutSignatureRole">DJ / Producer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GIGS -->
+  <section class="gigs section section--panel" id="gigs">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <div>
+          <p class="label" data-edit="gigsEyebrow">On the decks</p>
+          <h2 class="display" data-edit="gigsTitle">Where she's played</h2>
+        </div>
+        <p class="section-head__note edit-only">Click any card to edit it. Add a card for every gig worth showing off.</p>
+      </header>
+      <div class="gigs__grid" id="gigsGrid"></div>
+      <p class="add-row edit-only"><button class="btn btn--line" type="button" id="addGig"><svg class="ico"><use href="#i-plus"/></svg> Add a gig</button></p>
+    </div>
+  </section>
+
+  <!-- FEATURED VIDEO -->
+  <section class="featured" id="featured">
+    <figure class="slot featured__bg" data-slot="featured">
+      <div class="slot__frame"><div class="slot__ph"><span>Backdrop</span></div><img alt="" loading="lazy"></div>
+      <label class="slot__replace edit-only"><span class="t-add">Add backdrop</span><span class="t-replace">Replace backdrop</span><input type="file" accept="image/*" hidden></label>
+    </figure>
+    <div class="featured__scrim"></div>
+    <div class="featured__content reveal">
+      <p class="label" data-edit="featuredEyebrow">Watch</p>
+      <h2 class="display" data-edit="featuredTitle">Catch the energy live</h2>
+      <div class="featured__media" id="featuredMedia"></div>
+    </div>
+  </section>
+
+  <!-- SETS -->
+  <section class="sets section section--panel" id="sets">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <div>
+          <p class="label" data-edit="setsEyebrow">Listen</p>
+          <h2 class="display" data-edit="setsTitle">Latest sets &amp; mixes</h2>
+        </div>
+        <p class="section-head__note edit-only">Paste a YouTube, Vimeo or SoundCloud link - or upload a video file.</p>
+      </header>
+      <div class="media-grid video-grid" id="videoGrid"></div>
+      <p class="add-row edit-only"><button class="btn btn--line" type="button" id="addVideoSlot"><svg class="ico"><use href="#i-plus"/></svg> Add another set</button></p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <div>
+          <p class="label" data-edit="galleryEyebrow">Gallery</p>
+          <h2 class="display" data-edit="galleryTitle">On stage &amp; behind the decks</h2>
+        </div>
+        <p class="section-head__note edit-only">Add photos or drag &amp; drop them onto the grid.</p>
+      </header>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- CONNECT -->
+  <section class="connect" id="connect">
+    <div class="connect__intro reveal">
+      <p class="label" data-edit="connectEyebrow">Connect</p>
+      <h2 class="display" data-edit="connectTitle">Follow the sets.</h2>
+      <p data-edit="connectBody">New mixes, tour dates and behind-the-decks moments land on socials first.</p>
+      <p class="edit-only connect__hint">Paste a profile link or an @handle into each row.</p>
+    </div>
+    <ul class="socials" id="socials"></ul>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking section" id="booking">
+    <div class="wrap booking__grid">
+      <div class="booking__info reveal">
+        <p class="label" data-edit="bookingEyebrow">Booking</p>
+        <h2 class="display" data-edit="bookingTitle">Book Hershe.</h2>
+        <p data-edit="bookingBody">Clubs, festivals, brand activations and private events.</p>
+        <p class="booking__mail"><a id="mailLink" href="mailto:booking@yourdomain.com">booking@yourdomain.com</a></p>
+        <p class="booking__phone" id="phoneWrap"><a id="phoneLink" href="tel:">Call</a></p>
+        <p class="booking__press" id="pressWrap"><a id="pressLink" href="#" target="_blank" rel="noopener noreferrer">Press kit &amp; rider <svg class="ico"><use href="#i-arrow"/></svg></a></p>
+
+        <div class="edit-only booking__fields">
+          <label class="field"><span>Booking email</span><input type="email" id="emailInput" placeholder="booking@yourdomain.com" autocomplete="off"></label>
+          <label class="field"><span>Phone (optional)</span><input type="tel" id="phoneInput" placeholder="+63..." autocomplete="off"></label>
+          <label class="field"><span>Press kit link (Dropbox, Drive...)</span><input type="url" id="pressInput" placeholder="https://" autocomplete="off"></label>
+        </div>
+      </div>
+
+      <form class="form reveal" id="bookingForm" novalidate>
+        <label class="field"><span>Your name</span><input name="name" required autocomplete="name"></label>
+        <label class="field"><span>Email</span><input name="email" type="email" required autocomplete="email"></label>
+        <div class="form__row">
+          <label class="field"><span>Event / venue</span><input name="event"></label>
+          <label class="field"><span>Date</span><input name="date" type="date"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" rows="4" required></textarea></label>
+        <p class="form__error" id="formError" role="alert"></p>
+        <button class="btn btn--solid" type="submit">Send enquiry <svg class="ico"><use href="#i-arrow"/></svg></button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer__grid">
+    <div class="footer__col">
+      <p class="brand brand--footer" data-mirror="name">HERSHE</p>
+      <p class="footer__tagline" data-edit="footerTagline">House - Electro House - R&amp;B - Indie</p>
+    </div>
+    <div class="footer__col">
+      <p class="footer__head">Contact</p>
+      <p><a id="footerMail" href="mailto:booking@yourdomain.com">booking@yourdomain.com</a></p>
+      <p><a id="footerPhone" href="tel:"></a></p>
+    </div>
+    <div class="footer__col">
+      <p class="footer__head">Follow</p>
+      <ul class="footer__links" id="footerSocials"></ul>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <p>(c) <span id="year"></span> <span data-mirror="name">HERSHE</span>. All rights reserved.</p>
+    <a class="footer__top" href="#top">Back to top ^</a>
+  </div>
+</footer>
+
+<!-- Editor bar: a personal local draft, not a shared publish. -->
+<div class="editbar" role="region" aria-label="Profile editor">
+  <button class="editbar__main" id="editToggle" type="button" aria-pressed="false">Edit profile</button>
+  <span class="editbar__hint" id="saveState" role="status">Local draft - visible only to you</span>
+  <button class="editbar__reset edit-only" id="resetDraft" type="button">Reset</button>
+</div>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <button class="lightbox__btn lightbox__close" type="button" id="lbClose" aria-label="Close"><svg class="ico"><use href="#i-x"/></svg></button>
+  <button class="lightbox__btn lightbox__prev" type="button" id="lbPrev" aria-label="Previous photo"><svg class="ico"><use href="#i-prev"/></svg></button>
+  <img id="lbImg" alt="">
+  <button class="lightbox__btn lightbox__next" type="button" id="lbNext" aria-label="Next photo"><svg class="ico"><use href="#i-next"/></svg></button>
+  <p class="lightbox__count" id="lbCount" aria-live="polite"></p>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<noscript><p style="padding:24px;text-align:center">This profile needs JavaScript for the photo, video and edit features.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
